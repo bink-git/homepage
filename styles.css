@@ -349,7 +349,8 @@ body {
 
 .about-me,
 .education,
-.addinfo {
+.addinfo,
+.timeline {
   margin-bottom: 60px;
 }
 
@@ -373,6 +374,17 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: var(--main-color);
+}
+
+.timeline-list li {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.timeline-list span {
+  font-weight: 800;
+  margin-right: 20px;
 }
 
 .addinfo-wrapper {
