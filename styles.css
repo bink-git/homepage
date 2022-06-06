@@ -380,6 +380,10 @@ body {
   justify-content: space-around;
 }
 
+.addinfo .subtitle {
+  margin-bottom: 30px;
+}
+
 .addinfo-title {
   display: inline-block;
   font-size: 20px;
@@ -393,7 +397,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   list-style: none;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .addinfo-list span {
