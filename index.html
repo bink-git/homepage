@@ -11,163 +11,289 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <div class="resume">
-        <div class="container">
-          <div class="resume__block">
-            <h1 class="contact-info__header">Bulka</h1>
-            <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
+    <div class="container">
+      <header class="header">
+        <div class="header-photo">
+          <img src="img/profile-blue.jpg" alt="profile photo" />
+        </div>
+        <div class="header-content">
+          <div class="header-text">
+            <h1 class="header-title">Ivan Bahniuk</h1>
+            <p class="header-descr">Frontend Developer</p>
+            <img class="header-greek" src="./img/greek.png" alt="greek" />
+            <img
+              class="greek-glasses"
+              src="./img/glasses-2.png"
+              alt="glasses"
+            />
+          </div>
+        </div>
+      </header>
 
-            <div class="contact_info_container fh">
-              <div class="contact-info__block">
-                <a href="" rel="author" class="contact-info__item">
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span>Lviv, Ukraine</span>
-                </a>
+      <div class="main-content">
+        <aside class="aside">
+          <section class="contacts">
+            <h2 class="subtitle">Contacts</h2>
+            <ul class="contacts-list">
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:bahniuk.dev@gmail.com">bahniuk.dev@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-telegram"></i>
+                <a href="https://t.me/BINK119">@BINK119</a>
+              </li>
+
+              <li>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/ivan-bahniuk-356848104/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/bink-git">bink-git</a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skills">
+            <h2 class="subtitle">Skills</h2>
+            <ul class="skills-list">
+              <li>
+                <span class="skill-title">HTML</span>
+                <div class="skill-line line-html"></div>
+              </li>
+              <li>
+                <span class="skill-title">CSS</span>
+                <div class="skill-line line-css"></div>
+              </li>
+              <li>
+                <span class="skill-title">JS/ES6</span>
+                <div class="skill-line line-js"></div>
+              </li>
+              <li>
+                <span class="skill-title">React</span>
+                <div class="skill-line line-react"></div>
+              </li>
+              <li>
+                <span class="skill-title">Git</span>
+                <div class="skill-line line-git"></div>
+              </li>
+            </ul>
+
+            <h2 class="subtitle">Languages</h2>
+            <p class="skill-title">English - A2 (B1 in progress)</p>
+            <p class="skill-title">Ukrainian - native</p>
+          </section>
+
+          <div class="anim">
+            <img
+              src="./img/html.svg"
+              alt="html logo"
+              class="html-logo anim-logo"
+            />
+            <img
+              src="./img/css.svg"
+              alt="css logo"
+              class="css-logo anim-logo"
+            />
+            <img
+              src="./img/javascript.svg"
+              alt="js logo"
+              class="js-logo anim-logo"
+            />
+            <img
+              src="./img/bootstrap.svg"
+              alt="bs logo"
+              class="bs-logo anim-logo"
+            />
+            <img
+              src="./img/chrome.svg"
+              alt="chrome logo"
+              class="ch-logo anim-logo"
+            />
+            <img
+              src="./img/gulp.svg"
+              alt="gulp logo"
+              class="gl-logo anim-logo"
+            />
+            <img
+              src="./img/node.svg"
+              alt="nodejs logo"
+              class="nd-logo anim-logo"
+            />
+            <img
+              src="./img/npm.svg"
+              alt="npm logo"
+              class="npm-logo anim-logo"
+            />
+            <img
+              src="./img/react.svg"
+              alt="react logo"
+              class="rc-logo anim-logo"
+            />
+            <img
+              src="./img/sass.svg"
+              alt="sass logo"
+              class="sa-logo anim-logo"
+            />
+            <img
+              src="./img/stackoverflow.svg"
+              alt="stack logo"
+              class="so-logo anim-logo"
+            />
+            <img
+              src="./img/typescript.svg"
+              alt="ts logo"
+              class="ts-logo anim-logo"
+            />
+            <img
+              src="./img/webpack.svg"
+              alt="webpack logo"
+              class="wp-logo anim-logo"
+            />
+          </div>
+        </aside>
+
+        <main class="main">
+          <section class="about-me">
+            <h2 class="subtitle">About me</h2>
+            <p class="main-text">
+              Hello! I'm Ivan. I want to learn how to create amazing web sites &
+              web apps. I like to code adn see the result immediately. I would
+              like to improove my hard skills. It's important for me because I
+              wish worked in IT sphere as frontend developer. Also at the moment
+              I'm learning React.
+            </p>
+          </section>
+
+          <section class="education">
+            <h2 class="subtitle">Education</h2>
+            <ul class="edu-list">
+              <li>
+                <p class="main-text">
+                  <span
+                    >Ivano-Frankivsk National Technical University of Oil and
+                    Gas</span
+                  >
+                  / Computer Programming (2001-2006)
+                </p>
+              </li>
+              <li>
+                <p class="main-text">
+                  <span>Beetroot Academy</span>
+                  / Frontend Development Course (4 month)
+                </p>
+              </li>
+              <li>
+                <p class="main-text"><span>Udemy </span>Courses</p>
+              </li>
+              <li>
+                <p class="main-text">
+                  <span>SoftServe</span> / Online React Marathon (3 month)
+                </p>
+              </li>
+              <li>
+                <p class="main-text">
+                  <span>EPAM University</span> / Frontend Spring 2022 course (in
+                  progress)
+                </p>
+              </li>
+              <li>
+                <p class="main-text"><span>FreeCodeCamp</span></p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="addinfo">
+            <h2 class="subtitle">Additional info</h2>
+            <div class="addinfo-wrapper">
+              <div>
+                <p class="addinfo-title">Pros</p>
+                <ul class="addinfo-list">
+                  <li><span>🙂</span>Responsible</li>
+                  <li><span>💪</span>Hardworking</li>
+                  <li><span>😇</span>Patient</li>
+                </ul>
               </div>
-
-              <div class="contact-info__block contact-info__block--center">
-                <img
-                  class="contact-info__avatar"
-                  src="assets/avatar.png"
-                  alt="Avatar"
-                />
+              <div>
+                <p class="addinfo-title">Cons</p>
+                <ul class="addinfo-list">
+                  <li><span>🙄</span>Shy</li>
+                  <li><span>🤔</span>Flegmatic</li>
+                  <li><span>🧐</span>Picky</li>
+                </ul>
               </div>
-
-              <div class="contact-info__block">
+              <div>
+                <p class="addinfo-title">Hobbies</p>
+                <ul class="addinfo-list">
+                  <li><span>🚴🏻</span>Cycling</li>
+                  <li><span>🧳</span>Traveling</li>
+                  <li><span>🎧</span>Music</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="works">
+            <h2 class="subtitle">
+              My works <span>(educational projects)</span>
+            </h2>
+            <div class="works-container">
+              <div class="work-wrapper">
                 <a
-                  href="https://ua.linkedin.com/company/binary-studio_241166"
-                  rel="author"
-                  class="contact-info__item"
+                  href="https://bink-git.github.io/car-repair/"
+                  class="work-example work-1"
+                  target="_blank"
                 >
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                    >
-                      <path
-                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span>binary-studio</span>
                 </a>
+                <p class="work-descr">Final project in Beetroot Academy</p>
+              </div>
+              <div class="work-wrapper">
+                <a
+                  href="https://bink-git.github.io/go-surf/"
+                  class="work-example work-2"
+                  target="_blank"
+                ></a>
+              </div>
+              <div class="work-wrapper">
+                <a
+                  href="https://bink-git.github.io/movies-app-react/"
+                  class="work-example work-3"
+                  target="_blank"
+                ></a>
+              </div>
+              <div class="work-wrapper">
+                <a
+                  href="https://bink-git.github.io/gpt-react/"
+                  class="work-example work-4"
+                  target="_blank"
+                ></a>
+              </div>
+              <div class="work-wrapper">
+                <a href="#" class="work-example work-5" target="_blank"></a>
+              </div>
+              <div class="work-wrapper">
+                <a href="#" class="work-example work-6" target="_blank"></a>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="resume__block">
-            <div class="intro">
-              <div class="intro__icon-wrapper">
-                <svg
-                  class="intro__icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
-                  ></path>
-                </svg>
-              </div>
-              <p class="intro_text">
-                Meow. I am a Binary Studio cat. Still got 7 lives. Work in IT,
-                Full Stack Evil, all I do is sleep and try to help out hoomans
-                with their projects whenever they need me.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="resume__block">
-            <div class="skills">
-              <h3 class="skills__header">Skills</h3>
-              <p class="skills__text">
-                Sleep, eat, more sleep, meow, mrrr, purr.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="resume__block">
-            <div class="main-info fh">
-              <div class="experiences">
-                <h3 class="experiences__header">Experience</h3>
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability"
-                      >For whole my life</span
-                    >
-                    <h3 class="experiences__company-header-name">
-                      BinaryStudio
-                    </h3>
-                  </div>
-
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role"
-                      >Binary Studio Cat</span
-                    >
-                    <h3 class="experiences__company-project-name">
-                      Hooman project
-                    </h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>Supported hoomans</li>
-                      <li>Slept all the time</li>
-                      <li>Lied on the keyboard</li>
-                      <li>Watched my hoomans working</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="additional-info fv">
-                <div class="additional-info__education">
-                  <h3 class="additional-info__education-header">Education</h3>
-                  <div class="additional-info__education-university">
-                    <span
-                      class="additional-info__education-university-durability"
-                      >2021</span
-                    >
-                    <h3
-                      class="additional-info__education-university-speciality"
-                    >
-                      Cat track
-                    </h3>
-                    <p class="additional-info__education-university-name">
-                      Binary Studio Academy
-                    </p>
-                  </div>
-                </div>
-
-                <div class="additional-info__languages">
-                  <h3 class="additional-info__languages-header">Languages</h3>
-                  <p class="additional-info__languages-item">Meow dialect</p>
-                  <p class="additional-info__languages-item">
-                    Ukrainian (understand)
-                  </p>
-                  <p class="additional-info__languages-item">
-                    English (don't understand)
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          </section>
+        </main>
       </div>
-    </main>
+
+      <footer class="footer">
+        <div class="footer-github">
+          <a href="https://github.com/bink-git" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="footer-copy">© 2022 Binary Studio Academy</div>
+        <div class="footer-logo">
+          <a href="https://academy.binary-studio.com/" target="_blank">
+            <img src="./img/binary-black.svg" alt="Binary Logo" />
+          </a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
